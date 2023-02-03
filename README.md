@@ -1,13 +1,12 @@
 # Flight-Price-Prediction
 
-![Screenshot (39)](https://user-images.githubusercontent.com/69413168/216620601-88a31439-70d9-432e-8115-6fec39a1bd20.png)
-
-
 <p>In this project I built a model for predicting the fare of the flight ticket.</p>
 <br>
 <h2>What it does : </h2>
-<p align='center'><img src='https://user-images.githubusercontent.com/31500911/143291485-1852da18-7ee4-4871-ba67-7940739819e3.PNG'></p>
+<p align='center'><img src='https://user-images.githubusercontent.com/69413168/216620601-88a31439-70d9-432e-8115-6fec39a1bd20.png'></p>
 
+<h2>Live Demo</h2>
+<p align='center'><img src='https://user-images.githubusercontent.com/69413168/216665107-4b7eb6cc-49d1-4b03-b5eb-36dc98f8c7cf.gif'></p>
 
 <h2>How it does : </h2>
 <p>Extract the dependent variables and the independent variables from the dataset. Split the skewed data into shuffled sets using stratified shuffle split in sklearn library. Used the Hyperparameter tuning to increase the accuracy of prediction.</p>
