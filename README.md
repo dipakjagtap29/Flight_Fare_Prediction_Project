@@ -5,10 +5,6 @@
 
 <p align='center'><img height='350' src =![Screenshot (39)](https://user-images.githubusercontent.com/69413168/216620601-88a31439-70d9-432e-8115-6fec39a1bd20.png)</p>
 <br>
-
-
-<h1 align='center'>Model deploy using Flask on Heroku Platform</h1>
-<br>
 <p>In this project I built a model for predicting the fare of the flight ticket.</p>
 <br>
 <h2>What it does : </h2>
