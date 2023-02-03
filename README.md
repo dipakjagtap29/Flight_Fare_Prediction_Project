@@ -1,4 +1,4 @@
-# Flight-Price-Prediction
+# Flight Fare Prediction Using Machine Learning
 
 <p>In this project I built a model for predicting the fare of the flight ticket.</p>
 <br>
