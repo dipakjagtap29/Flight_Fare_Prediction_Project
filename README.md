@@ -1,4 +1,4 @@
-# Flight Fare Prediction Using Machine Learning
+# Flight Fare Prediction Using Machine Learning ✈
 
 ## Overview
  > A Flight price prediction application which predicts fares of flight for a particular date based on various parameters like Source, Destination, Stops & Airline.Data used in this Project is publicly available at Kaggle. The dataset goes through Data Cleaning, Data Wrangling , Exploratory Data Analysis which gives insights about the data and later uses Machine Learning techniques to train the data for prediction. <br/>
