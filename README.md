@@ -1,6 +1,10 @@
 # Flight Fare Prediction Using Machine Learning
 
-<p>In this project I built a model for predicting the fare of the flight ticket.</p>
+## Overview
+This is a Flask web app which predicts fare of Flight ticket.
+
+## Motivation
+What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
 <br>
 <h2>What it does : </h2>
 <p align='center'><img src='https://user-images.githubusercontent.com/69413168/216620601-88a31439-70d9-432e-8115-6fec39a1bd20.png'></p>
@@ -41,5 +45,32 @@
 
 <h2>Result :</h2>
 <p align='center'><img src='https://user-images.githubusercontent.com/31500911/144676081-2d692d73-1c16-4c5a-a1ef-0ff50ec576b4.png'></p>
+
+
+## Directory Tree 
+```
+├── static 
+│   ├── css
+├── template
+│   ├── home.html
+├── Procfile
+├── README.md
+├── app.py
+├── flight_price.ipynb
+├── flight_rf.pkl
+├── requirements.txt
+```
+
+## Technologies Used
+
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+
+[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
+
+## Future Scope
+
+* Use multiple Algorithms
+* Optimize Flask app.py
+* Front-End 
 
 
