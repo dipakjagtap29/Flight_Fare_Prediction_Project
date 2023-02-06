@@ -3,20 +3,21 @@
 ## Overview
  > A Flight price prediction application which predicts fares of flight for a particular date based on various parameters like Source, Destination, Stops & Airline.Data used in this Project is publicly available at Kaggle. The dataset goes through Data Cleaning, Data Wrangling , Exploratory Data Analysis which gives insights about the data and later uses Machine Learning techniques to train the data for prediction. <br/>
   > It is a regression problem which is solved using RandomForestRegressor ML Algorithm which generates accurate results for price prediction. A web application is created using Flask through which user can interact and get accurate prediction of flight fares.
+  
+  ## Objectives 🏆
 
-## Motivation
-What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
-<br>
+In this project, these questions will be answered:
 
-<h2>What it does : </h2>
-<p align='center'><img src='https://user-images.githubusercontent.com/69413168/216620601-88a31439-70d9-432e-8115-6fec39a1bd20.png'></p>
+* [x] Does price vary with Airlines?
+* [x] How is the price affected when tickets are bought in just 1 or 2 days before departure?
+* [x] Does ticket price change based on the departure time and arrival time?
+* [x] How the price changes with change in Source and Destination?
+* [x] How does the ticket price vary between Economy and Business class?
+* [x] Which features have the most impact on predicting flight price?
+* [x] Which model is the best for predicting flight price?
 
 <h2>Live Demo</h2>
 <p align='center'><img src='https://user-images.githubusercontent.com/69413168/216665107-4b7eb6cc-49d1-4b03-b5eb-36dc98f8c7cf.gif'></p>
-
-<h2>How it does : </h2>
-<p>Extract the dependent variables and the independent variables from the dataset. Split the skewed data into shuffled sets using stratified shuffle split in sklearn library. Used the Hyperparameter tuning to increase the accuracy of prediction.</p>
-<br>
 
 ## Technologies Used
 
@@ -36,20 +37,35 @@ What to do when you are at home due to this pandemic situation? I started to lea
 </ul>
 <br>
 
-<h2>Dataset : </h2>
-<ul>
-  <li>Airline </li>
-  <li>Date_of_Journey</li>
-  <li>Source</li>
-  <li>Destination</li>
-  <li>Route</li>
-  <li>Dep_Time</li>
-  <li>Arrival_Time</li>
-  <li>Duration</li>
-  <li>Total_Stops</li>
-  <li>Additional_Info</li>
-  <li>Price</li> 
-</ul>
+## Dataset 📔
+
+[Kaggle link: Flight Price Data](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
+
+
+</details>
+
+## Project Overview 💼
+
+Sample Visualization:
+
+<p align="center">
+  <img width="1200" height="400" src="https://github.com/Pegah-Ardehkhani/Flight-Price-EDA-and-Prediction/blob/main/images/airlines.PNG">
+</p>
+
+<p align="center">
+  <img width="1200" height="400" src="https://github.com/Pegah-Ardehkhani/Flight-Price-EDA-and-Prediction/blob/main/images/airelines_price.PNG">
+</p>
+
+Model Evaluation:
+
+<p align="center">
+  <img width="1200" height="400" src="https://github.com/Pegah-Ardehkhani/Flight-Price-EDA-and-Prediction/blob/main/images/true_predicted.PNG">
+</p>
+
+<p align="center">
+  <img width="1200" height="400" src="https://github.com/Pegah-Ardehkhani/Flight-Price-EDA-and-Prediction/blob/main/images/compare.PNG">
+</p>
+
 
 <h2>Model Pipeline :</h2>
 <p align='center'><img src='https://user-images.githubusercontent.com/31500911/143293225-c64aa83a-38bf-490a-aacf-eb96eb6c7088.png'></p>
