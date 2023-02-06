@@ -6,6 +6,7 @@ This is a Flask web app which predicts fare of Flight ticket.
 ## Motivation
 What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
 <br>
+
 <h2>What it does : </h2>
 <p align='center'><img src='https://user-images.githubusercontent.com/69413168/216620601-88a31439-70d9-432e-8115-6fec39a1bd20.png'></p>
 
@@ -15,6 +16,13 @@ What to do when you are at home due to this pandemic situation? I started to lea
 <h2>How it does : </h2>
 <p>Extract the dependent variables and the independent variables from the dataset. Split the skewed data into shuffled sets using stratified shuffle split in sklearn library. Used the Hyperparameter tuning to increase the accuracy of prediction.</p>
 <br>
+
+## Technologies Used
+
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+
+[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
+
 <h2>Prerequisites :</h2>
 <ul>
   <li>Python</li>
@@ -26,6 +34,7 @@ What to do when you are at home due to this pandemic situation? I started to lea
   <li>Jupyter/Spyder/Pycharm</li>
 </ul>
 <br>
+
 <h2>Dataset : </h2>
 <ul>
   <li>Airline </li>
@@ -40,6 +49,7 @@ What to do when you are at home due to this pandemic situation? I started to lea
   <li>Additional_Info</li>
   <li>Price</li> 
 </ul>
+
 <h2>Model Pipeline :</h2>
 <p align='center'><img src='https://user-images.githubusercontent.com/31500911/143293225-c64aa83a-38bf-490a-aacf-eb96eb6c7088.png'></p>
 
@@ -60,12 +70,6 @@ What to do when you are at home due to this pandemic situation? I started to lea
 ├── flight_rf.pkl
 ├── requirements.txt
 ```
-
-## Technologies Used
-
-![](https://forthebadge.com/images/badges/made-with-python.svg)
-
-[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
 
 ## Future Scope
 
