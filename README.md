@@ -39,10 +39,7 @@ In this project, these questions will be answered:
 
 ## Dataset 📔
 
-[Kaggle link: Flight Price Data](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
-
-
-</details>
+[Kaggle link: Flight Price Data](https://www.kaggle.com/datasets/nikhilmittal/flight-fare-prediction-mh)
 
 ## Project Overview 💼
 
