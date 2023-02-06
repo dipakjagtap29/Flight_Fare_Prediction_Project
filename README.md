@@ -1,7 +1,8 @@
 # Flight Fare Prediction Using Machine Learning
 
 ## Overview
-This is a Flask web app which predicts fare of Flight ticket.
+ > A Flight price prediction application which predicts fares of flight for a particular date based on various parameters like Source, Destination, Stops & Airline.Data used in this Project is publicly available at Kaggle. The dataset goes through Data Cleaning, Data Wrangling , Exploratory Data Analysis which gives insights about the data and later uses Machine Learning techniques to train the data for prediction. <br/>
+  > It is a regression problem which is solved using RandomForestRegressor ML Algorithm which generates accurate results for price prediction. A web application is created using Flask through which user can interact and get accurate prediction of flight fares.
 
 ## Motivation
 What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
